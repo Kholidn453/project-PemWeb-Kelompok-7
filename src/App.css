@@ -1,0 +1,37 @@
+.active-nav {
+  color: #ffcc00 !important;
+  border-bottom: 2px solid #ffcc00;
+  font-weight: bold;
+}
+
+/* untuk custom button color */
+.custom-hover-white:hover {
+  color: white !important;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.nav-link:hover {
+  color: #ffcc00;
+}
+
+/* Link nav umum */
+.nav-link-custom {
+  text-decoration: none; /* hilangkan underline */
+  color: black; /* warna default hitam */
+  margin: 0 10px; /* beri jarak antar link */
+  font-weight: normal; /* default tidak bold */
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+/* Saat aktif (halaman aktif) */
+.nav-link-custom.active-nav {
+  color: orange; /* warna oranye saat aktif */
+  font-weight: bold; /* bold saat aktif */
+}
+
+/* Opsional: efek hover */
+.nav-link-custom:hover {
+  color: orange;
+}
